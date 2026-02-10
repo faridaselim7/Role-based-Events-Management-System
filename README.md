@@ -275,7 +275,7 @@ NODE_ENV=development
 # Database
 MONGODB_URI=mongodb://localhost:27017/brains704
 # OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/brains704
+# MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_HOST>/<DB_NAME>
 
 # JWT Authentication
 JWT_SECRET=your_super_secret_jwt_key_here_change_in_production
