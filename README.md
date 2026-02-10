@@ -6,7 +6,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-Latest-green)](https://www.mongodb.com/)
 [![License](https://img.shields.io/badge/License-ISC-blue)](LICENSE)
 
-A comprehensive full-stack web application for managing university campus activities, events, vendor management, and facility bookings. Built with **Express.js**, **MongoDB**, and **React** for the Habiba GUC university community.
+A comprehensive full-stack web application for managing university campus activities, events, vendor management, and facility bookings. Built with **Express.js**, **MongoDB**, and **React** for the GUC community.
 
 ---
 
@@ -275,7 +275,7 @@ NODE_ENV=development
 # Database
 MONGODB_URI=mongodb://localhost:27017/brains704
 # OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_HOST>/<DB_NAME>
+MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_HOST>/<DB_NAME>
 
 # JWT Authentication
 JWT_SECRET=your_super_secret_jwt_key_here_change_in_production
@@ -1016,7 +1016,3 @@ cd frontend && npm start
 ```
 
 ---
-
-**Happy coding! 🚀**
-
-For questions or support, refer to the documentation files or contact the development team.
